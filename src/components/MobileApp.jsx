@@ -2,7 +2,7 @@ import React from "react";
 
 function MobileApp() {
   return (
-    <div className="bg-primary-brand-color bg-mobile-app  mt-6 rounded-lg text-white md:flex flex-row justify-between items-center container mx-auto">
+    <div className="bg-primary-brand-color bg-mobile-app  mt-6 md:rounded-lg text-white md:flex flex-row justify-between items-center container mx-auto">
       <div
         className="flex
        flex-col gap-y-3 p-10 text-center md:text-left"
