@@ -10,8 +10,8 @@ function Categories() {
   }, []);
 
   return (
-    <div className="bg-white py-4">
-      <div className="container mx-auto px-8">
+    <div className="bg-white pt-4 md:py-4">
+      <div className="container px-1 mx-auto md:px-8">
         <Title>Kategoriler</Title>
         <div className="grid grid-cols-4 2xl:grid-cols-12 xl:grid-cols-10 lg:grid-cols-8 md-grid-cols-6">
           {!categories.length && "Yükleniyor..."}
