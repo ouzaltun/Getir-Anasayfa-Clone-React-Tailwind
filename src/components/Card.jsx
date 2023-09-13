@@ -9,7 +9,7 @@ function Card() {
 
   return (
     <div className="container mx-auto mt-10">
-      <div className=" grid grid-cols-3 gap-x-4">
+      <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {cards.length &&
           cards.map((card) => (
             <div className="bg-white p-12 rounded-lg shadow-xl flex flex-col justify-center items-center text-center gap-y-4">
