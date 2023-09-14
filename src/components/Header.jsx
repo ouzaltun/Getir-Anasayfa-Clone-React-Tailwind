@@ -26,21 +26,21 @@ function Header() {
         <nav className="hidden md:flex gap-x-8 text-sm font-semibold justify-center align-middle">
           <a
             href="#"
-            className="text-white  text-lg text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-x-2 max-md:hidden"
+            className="text-white  text-md text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-x-2 max-md:hidden"
           >
             <BiGlobe size={22}></BiGlobe>
             Türkçe (TR)
           </a>
           <a
             href="#"
-            className="text-white text-lg text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-x-2"
+            className="text-white text-md text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-x-2"
           >
             <RiUserFill size={22}></RiUserFill>
             Giriş Yap
           </a>
           <a
             href="#"
-            className="text-white text-lg text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-x-2"
+            className="text-white text-md text-opacity-80 hover:text-opacity-100 transition-all flex items-center gap-x-2"
           >
             <RiUserAddFill size={22}></RiUserAddFill>
             Kayıt Ol
